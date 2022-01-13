@@ -35,11 +35,11 @@ securityContext: {}
   # readOnlyRootFilesystem: true
   # runAsNonRoot: true
   # runAsUser: 1000
-containerPort: 8000
+containerPort: 8001
 
 service:
   type: NodePort
-  port: 8000
+  port: 32000
 
 ingress:
   enabled: false

@@ -1,0 +1,10 @@
+<h3>Object(s) {{ obj }} found in s3 bucket -> {{ bucket_name }} {{ bucket_err }} </h3>
+
+{% for item in check %}
+ <p>  Variable: {{ item }}  </p>
+{% endfor %}  
+{% for item in data %}
+     {{ item }}  
+{% endfor %} 
+<h2>{{ err }}</h2>
+    

@@ -5,7 +5,9 @@
 
 To install the chart you can fill the env variables in the values.yaml and run the command:
 ```
-helm install test-chart /. 
+helm install test-chart /. or
+
+helm install test-chart /. --values myvalues.yaml # if you create your own myvalues.yaml file
 ```
 
 - Also in this repo is the Dockerfile for the image that is used in the helm chart.
